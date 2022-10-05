@@ -1,2 +1,2 @@
-# DPG-LMS.github.io
-This is the DPG-LMS project.
+Webpage of the DPG-LMS project.
+

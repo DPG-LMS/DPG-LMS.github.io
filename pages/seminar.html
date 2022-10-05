@@ -1,0 +1,39 @@
+---
+layout: default
+sitemap: false
+permalink: /seminar.html
+---
+
+<div class="col-sm-12">
+  <div markdown="1">
+
+   <h1>Probabilistic Graph Management and Application Seminar</h1>
+
+   <h3>Announcements</h3>
+   <p align="justify">If you are interested in database research, you are welcome to join us in our quarterly seminar. Each time a local or visiting researcher gives a talk on their research topic.</p>
+    <p><b>Location/Time:</b> TBD.</p>
+    <p><b>Course Number:</b> If you are a student and plan to attend, you can enroll in CSE 239A for 1 credit.</p>
+    <p><b>Mailing List:</b> Announcements about the seminar are sent to the mailing list. To get subscribed, please submit <a href="https://forms.gle/5a8WGBwuYz2jJUFK9">this Google Form</a>.</p>
+
+   <br/>
+   <h3>DB Seminars</h3>
+    {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <h4>{{post.title | escape }}</h4>
+        <h5>{{post.author}} • <span class="post-meta">{{ post.date | date: date_format }}</span></h5>
+
+        {{ post.excerpt | strip_html | truncatewords:25 }}
+        <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <br/>
+    <!--<p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+   {%- endif -%}
+
+  </div>
+</div>

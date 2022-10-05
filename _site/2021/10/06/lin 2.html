@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179247539-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-179247539-1');
+</script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Self-Driving Database Management Systems: Forecasting, Modeling, And Planning</title>
+  <meta name="description" content="Database management systems (DBMSs) are an important part of modern data-driven applications. However, they are notoriously difficult to deploy and administe...">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/2021/10/06/lin.html">
+<link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/images/favicon.ico">
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+
+    <!--<a class="navbar-brand" href="http://localhost:4000/">UC San Diego Database Lab</a>-->
+	<a class="navbar-brand" href="http://localhost:4000/">
+		<img height="50" src="http://localhost:4000/images/CSELogo_RGBh.gif" style="margin-top: -10px">
+	</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://localhost:4000/">Home</a></li>
+		<li><a href="http://localhost:4000/#people">People</a></li>
+		<li><a href="http://localhost:4000/#news">News</a></li>
+		<li><a href="http://localhost:4000/#projects">Research Projects</a></li>
+		<li><a href="http://localhost:4000/#papers">Publications</a></li>
+		<li><a href="http://localhost:4000/#courses">Courses</a></li>
+		<li><a href="http://localhost:4000/seminar">Database Seminar</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Self-Driving Database Management Systems: Forecasting, Modeling, And Planning</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-10-06T00:00:00-05:00" itemprop="datePublished">Oct 6, 2021
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Dr. Lin Ma (CMU)</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Database management systems (DBMSs) are an important part of modern data-driven applications. However, they are notoriously difficult to deploy and administer because they have many aspects that one can change that affect their performance, including database physical design and system configuration. There are existing methods that recommend how to change these aspects of databases for an application. But most of them require humans to make final decisions on what changes to apply and when to apply them. Furthermore, these previous tuning methods either (1) require expensive exploratory testing, (2) are reactionary to the workload and can only solve problems after they occur, (3) focus only on improving one single aspect of the DBMS, or (4) do not provide explanations on their decisions. Thus, most DBMSs today still require onerous and costly human administration.</p>
+
+<p>We present a novel architecture for a self-driving DBMS that enables automatic system management and removes the administration impediments. Our approach consists of three frameworks: (1) workload forecasting, (2) behavior modeling, and (3) action planning. The workload forecasting framework predicts the query arrival rates under varying database workload patterns using an ensemble of time-series forecasting models. The behavior modeling framework constructs fine-grained machine learning models that predict the runtime behavior of the DBMS. Lastly, the action planning framework generates a sequence of optimization actions based on these forecasted workload patterns and behavior model estimations. It uses receding horizon control and Monte Carlo tree search to approximate the complex optimization problem effectively.</p>
+
+<p>Our forecasting-modeling-planning architecture enables an autonomous DBMS that proactively plans for optimization actions without expensive testing. It automatically applies the actions at proper times, holistically controls all system aspects, and provides explanations on its decisions.</p>
+
+<p>Speaker bio:</p>
+
+<p>Lin is a Postdoc in the CMU database group working with Andy Pavlo to develop the NoisePage DBMS, a self-driving DBMS designed from the ground up. Lin recently graduated from CMU with a PhD in Computer Science.</p>
+
+<p>Public video of talk: https://www.youtube.com/watch?v=2rvv_cBK0uY</p>
+
+  </div>
+
+  <a class="u-url" href="/2021/10/06/lin.html" hidden></a>
+</article>
+      </div>
+    </div>
+
+    <br><br><br><br><br>
+<div id="footer" class="panel"></div>
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-12">
+		  <p>&copy 2020 UCSD Database Lab. Site made with <a href="https://jekyllrb.com">Jekyll</a>. Site development acknowledgment: Supun Nakandala and Arun Kumar.</p>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179247539-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-179247539-1');
+</script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hydra: A Data System for Large Multi-Model Deep Learning</title>
+  <meta name="description" content="Recent advances in deep learning (DL) architectures have improved model quality in a variety of domains, but have come at the expense of a substantial increa...">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/2021/10/27/kabir.html">
+<link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/images/favicon.ico">
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+
+    <!--<a class="navbar-brand" href="http://localhost:4000/">UC San Diego Database Lab</a>-->
+	<a class="navbar-brand" href="http://localhost:4000/">
+		<img height="50" src="http://localhost:4000/images/CSELogo_RGBh.gif" style="margin-top: -10px">
+	</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://localhost:4000/">Home</a></li>
+		<li><a href="http://localhost:4000/#people">People</a></li>
+		<li><a href="http://localhost:4000/#news">News</a></li>
+		<li><a href="http://localhost:4000/#projects">Research Projects</a></li>
+		<li><a href="http://localhost:4000/#papers">Publications</a></li>
+		<li><a href="http://localhost:4000/#courses">Courses</a></li>
+		<li><a href="http://localhost:4000/seminar">Database Seminar</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Hydra: A Data System for Large Multi-Model Deep Learning</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-10-27T00:00:00-05:00" itemprop="datePublished">Oct 27, 2021
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Kabir Nagrecha (UC San Diego)</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Recent advances in deep learning (DL) architectures have improved model quality in a variety of domains, but have come at the expense of a substantial increase in model sizes. Model architectures have reached unprecedented scales, and multi-billion parameter models have become commonplace.</p>
+
+<p>Unfortunately, GPU memory capacity growth has not kept pace with this rapid expansion, introducing a new systems bottleneck for DL users. While solutions exist, such as model parallelism, they suffer from performance drawbacks and introduce efficiency issues of their own.</p>
+
+<p>In this talk, I will introduce Hydra, our new system for large-scale multi-model training. Hydra takes a fresh database-inspired approach to the problem, introducing new ML systems techniques adapted from RDBMSs. This includes a highly general form of automatic model sharding and spilling across memory hierarchy, a novel hybrid of model parallelism and task parallelism inspired by multi-query optimization, and a new paired scheduling scheme inspired by double buffering in RDBMSs.</p>
+
+<p>Our system demonstrates linear speedups against model parallelism and 50% faster training times versus state-of-the-art pipeline parallel techniques. To explore Hydra’s real-world usability, we are currently working with a group training deep learning models for physics, where high-resolution data poses challenges for scalability.</p>
+
+<p>Speaker bio:</p>
+
+<p>Kabir is a Ph.D. student in the UC San Diego databases group advised by Professor Arun Kumar. His research broadly addresses performance optimizations in machine learning systems design, with his most recent work focusing on enabling efficient training of large-scale models.</p>
+
+  </div>
+
+  <a class="u-url" href="/2021/10/27/kabir.html" hidden></a>
+</article>
+      </div>
+    </div>
+
+    <br><br><br><br><br>
+<div id="footer" class="panel"></div>
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-12">
+		  <p>&copy 2020 UCSD Database Lab. Site made with <a href="https://jekyllrb.com">Jekyll</a>. Site development acknowledgment: Supun Nakandala and Arun Kumar.</p>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>

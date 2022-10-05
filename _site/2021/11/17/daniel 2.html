@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179247539-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-179247539-1');
+</script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Efficient and Reliable Query Processing using Machine Learning</title>
+  <meta name="description" content="Given the rise of increasingly powerful models, machine learning (ML) can now be used to answer a range of queries over unstructured data (e.g., videos, text...">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/2021/11/17/daniel.html">
+<link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/images/favicon.ico">
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+
+    <!--<a class="navbar-brand" href="http://localhost:4000/">UC San Diego Database Lab</a>-->
+	<a class="navbar-brand" href="http://localhost:4000/">
+		<img height="50" src="http://localhost:4000/images/CSELogo_RGBh.gif" style="margin-top: -10px">
+	</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://localhost:4000/">Home</a></li>
+		<li><a href="http://localhost:4000/#people">People</a></li>
+		<li><a href="http://localhost:4000/#news">News</a></li>
+		<li><a href="http://localhost:4000/#projects">Research Projects</a></li>
+		<li><a href="http://localhost:4000/#papers">Publications</a></li>
+		<li><a href="http://localhost:4000/#courses">Courses</a></li>
+		<li><a href="http://localhost:4000/seminar">Database Seminar</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Efficient and Reliable Query Processing using Machine Learning</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-11-17T00:00:00-06:00" itemprop="datePublished">Nov 17, 2021
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Daniel Kang (Stanford University)</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Given the rise of increasingly powerful models, machine learning (ML) can now be used to answer a range of queries over unstructured data (e.g., videos, text) by extracting structured information over this data (e.g., object types and positions in scenes). Unfortunately, ML can be prohibitively expensive to deploy (e.g., costing millions of dollars to process a year’s worth of data) and too unreliable for many use cases.</p>
+
+<p>In this talk, I will describe how a new class of ML-based query systems can tackle these challenges. I will first describe how query optimization systems can enable ML-based queries over unstructured data. Given an “oracle” method the user wishes to mimic (i.e., an human expert labeler or an expensive ML method), systems can automatically train and execute more inexpensive “proxy” models that approximate the oracle. I will describe our work building query systems to accelerate a range of queries – including common selection, aggregation, and limit operations – by orders of magnitude while providing strong statistical guarantees on query accuracy despite using possibly noisy proxy-based approximations. Towards improving the reliability of ML systems, I will also describe new systems-based programming abstractions to find errors in both ML models and in human-generated labels. Finally, I will discuss our experience deploying these systems in the field both at Toyota and with Stanford ecologists.</p>
+
+<p>Speaker bio:</p>
+
+<p>Daniel Kang is a final year PhD student in the Stanford DAWN lab, co-advised by Professors Peter Bailis and Matei Zaharia. His research focuses on systems approaches for deploying unreliable and expensive machine learning methods efficiently and reliably. In particular, he focuses on using cheap approximations to accelerate query processing algorithms and new programming models for ML data management. Daniel is collaborating with autonomous vehicle companies and ecologists to deploy his research. His work is supported in part by the NSF GRFP and the Google PhD fellowship.</p>
+
+  </div>
+
+  <a class="u-url" href="/2021/11/17/daniel.html" hidden></a>
+</article>
+      </div>
+    </div>
+
+    <br><br><br><br><br>
+<div id="footer" class="panel"></div>
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-12">
+		  <p>&copy 2020 UCSD Database Lab. Site made with <a href="https://jekyllrb.com">Jekyll</a>. Site development acknowledgment: Supun Nakandala and Arun Kumar.</p>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>

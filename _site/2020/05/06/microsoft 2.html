@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179247539-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-179247539-1');
+</script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cloudy with high chance of DBMS: A 10-year prediction for Enterprise-Grade ML</title>
+  <meta name="description" content="Machine learning (ML) has proven itself in high-value web applications such as search ranking and is emerging as a powerful tool in a much broader range of e...">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/2020/05/06/microsoft.html">
+<link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/images/favicon.ico">
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+
+    <!--<a class="navbar-brand" href="http://localhost:4000/">UC San Diego Database Lab</a>-->
+	<a class="navbar-brand" href="http://localhost:4000/">
+		<img height="50" src="http://localhost:4000/images/CSELogo_RGBh.gif" style="margin-top: -10px">
+	</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://localhost:4000/">Home</a></li>
+		<li><a href="http://localhost:4000/#people">People</a></li>
+		<li><a href="http://localhost:4000/#news">News</a></li>
+		<li><a href="http://localhost:4000/#projects">Research Projects</a></li>
+		<li><a href="http://localhost:4000/#papers">Publications</a></li>
+		<li><a href="http://localhost:4000/#courses">Courses</a></li>
+		<li><a href="http://localhost:4000/seminar">Database Seminar</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Cloudy with high chance of DBMS: A 10-year prediction for Enterprise-Grade ML</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-05-06T00:00:00-05:00" itemprop="datePublished">May 6, 2020
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Carlo Curino and Kostas Karanasos (Microsoft Jim Gray Systems Lab)</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Machine learning (ML) has proven itself in high-value web applications such as search ranking and is emerging as a powerful tool in a much broader range of enterprise scenarios including voice recognition and conversational understanding for customer support, intelligent feedback loops in large-scale sysops, manufacturing, and autonomous vehicle management, just to name a few. Meanwhile, as the value of data is increasingly recognized and monetized, concerns about securing valuable data and risks to individual privacy have been growing. Consequently, rigorous data management has emerged as a key requirement in enterprise settings.</p>
+
+<p>In the first half of this talk, Carlo will present GSL’s vision of how ML and database systems are likely to come together, and early steps we take towards making this vision a reality. In the process, he will attempt to answer the following questions: How will the trends of ML growing popularity and stricter data governance intersect? What are the unmet requirements for applying ML in enterprise settings? What are the technical challenges for the DB community to solve?</p>
+
+<p>In the second half, Konstantinos will focus on the common and consequential part of model inference. He will present Raven, a system that leverages native integration of ML runtimes (such as ONNX Runtime) deep within SQL Server, taking advantage of DBMS’s mature infrastructure for fast data access and processing along with its support for enterprise features (e.g., encryption, auditing, high-availability). Raven employs a unified intermediate representation (IR) to enable advanced cross-optimizations between ML and database operators. In this optimization space, we discover the most exciting research opportunities that combine DB/compiler/ML thinking. Our initial evaluation on real data demonstrates performance gains of up to 5.5x from the native integration of ML in SQL Server, up to 24x from cross-optimizations, and orders of magnitude from conversions to tensor computations. An early preview of the ONNX Runtime integration is currently available with Azure’s SQL Database Edge.</p>
+
+  </div>
+
+  <a class="u-url" href="/2020/05/06/microsoft.html" hidden></a>
+</article>
+      </div>
+    </div>
+
+    <br><br><br><br><br>
+<div id="footer" class="panel"></div>
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-12">
+		  <p>&copy 2020 UCSD Database Lab. Site made with <a href="https://jekyllrb.com">Jekyll</a>. Site development acknowledgment: Supun Nakandala and Arun Kumar.</p>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>
