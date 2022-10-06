@@ -1,0 +1,28 @@
+- name: Richard E. Ferdig
+  photo: nopic.png
+  web: https://www.kent.edu/ehhs/ldes/profile/dr-richard-ferdig
+  info: "Summit Professor of Learning Technologies and Professor of Educational Technology at Kent State University"
+- name: Enrico Gandolfi
+  photo: nopic.png
+  web: https://www.kent.edu/ehhs/tlcs/dr-enrico-gandolfi
+  info: "Assistant professor and Program Coordinator of the Educational Technology program at Kent State University"
+- name: Tang Tang
+  photo: nopic.png
+  web: https://www.kent.edu/mdj/tang-tang
+  info: "Professor in the School of Media and Journalism and the School of Emerging Media and Technology at Kent State University"
+- name: Wei Wu
+  photo: nopic.png
+  web: https://eddy16112.github.io/
+  info: "Senior Software Engineer at NVIDIA"
+- name: Xing Gao 
+  photo: nopic.png
+  web: https://xgao-work.github.io/
+  info: "Assistant Professor in the Department of Computer and Information Sciences at University of Delaware"
+- name: Xinyue Ye
+  photo: nopic.png
+  web: https://www.arch.tamu.edu/staff/xinyue-ye/
+  info: "Harold Adams Endowed Professor on Interdisciplinary Built Environment Science Research, Associate Professor of Stellar Faculty Provost Target Hire for Urban Computing at Texas A&M University"
+- name: Zhao Zhang
+  photo: nopic.png
+  web: https://www.tacc.utexas.edu/about/directory/zhao-zhang
+  info: "Research Associate at the Texas Advanced Computing Center"

@@ -1,0 +1,15 @@
+- name: Xiaofei Zhang
+  photo: nopic.png
+  web: http://zxf-work.github.io
+  info: "Xiaofei's research lies in developing new algorithms and toolkits for time efficient and scalable data management and the theory of data-intensive parallel/distributed computing."
+  scholar: https://scholar.google.com/citations?user=IBy4k-4AAAAJ&hl=en
+- name: Xiang Lian
+  photo: nopic.png
+  web: http://www.cs.kent.edu/~xlian/
+  info: "Xiang's research lies in ..."
+  scholar: https://scholar.google.com/citations?user=xvrh8YMAAAAJ&hl=en&oi=ao
+- name: Qiang Guan
+  photo: nopic.png
+  web: hhttp://www.cs.kent.edu/~qguan/
+  info: "Qiang's research lies in ..."
+  scholar: https://scholar.google.com/citations?user=kpPoy4gAAAAJ&hl=en
